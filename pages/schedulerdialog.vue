@@ -99,8 +99,9 @@
                 <v-card
                   class="mb-5"
                   color="grey lighten-1"
-                  height="200px"
-                ></v-card>
+                >
+                  <scheduler />
+                </v-card>
         
                 <v-btn
                   block
@@ -142,6 +143,7 @@
 <script>
 import { validationMixin } from 'vuelidate'
 import { required, maxLength, email } from 'vuelidate/lib/validators'
+import scheduler from './scheduler'
 
 export default {
   mixins: [validationMixin],
@@ -151,6 +153,9 @@ export default {
     businessName: { required, maxLength: maxLength(35) },
     businessEmail: { required, email },
     businessPhone: { required }
+  },
+  components: {
+    scheduler
   },
   data () {
     return {
