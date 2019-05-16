@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # scheduler
 
 > BamBee Scheduler Application
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
+=======
+# Bambee-Scheduler
+Front-End Engineering Test
+>>>>>>> e9ccef19b1470f7d649f00678915e9d1ea8a70a6
