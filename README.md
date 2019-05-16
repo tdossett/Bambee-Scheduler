@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# scheduler
+# Bambee Scheduler
 
 > BamBee Scheduler Application
 
